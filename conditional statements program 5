@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main() {
+
+   int i=1;
+ 
+   //i is less than or equal to 100
+   while( i  <= 100) {
+      //print the value of i
+      printf("%d\n", i);
+ 
+      //Increment the value of i
+      i++;
+   }
+
+   return 0;
+}
