@@ -1,0 +1,13 @@
+#include <stdio.h>  
+   
+int main() {  
+    int counter, N; 
+    N=100;
+    printf("Printing Numbers form %d to 0\n", N);  
+  
+    for(counter = N; counter > 0; counter--) {  
+        printf("%d \n", counter);  
+    }
+     
+    return 0;  
+} 
