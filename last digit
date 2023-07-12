@@ -1,0 +1,11 @@
+#include <stdio.h>
+int last_digit(int num);
+int main() {
+    int num;
+    printf("%d",last_digit(487));
+    return 0;
+}
+int last_digit(int num)
+   {
+    return num % 10;
+}
