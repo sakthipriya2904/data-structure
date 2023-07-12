@@ -1,0 +1,11 @@
+#include <stdio.h>
+int secondlast_digit(int num);
+int main() {
+    int num;
+    printf("%d",secondlast_digit(1429));
+    return 0;
+}
+int secondlast_digit(int num)
+   {
+    return (num % 100)/ 10;
+}
