@@ -1,0 +1,14 @@
+#include <stdio.h>
+int sum(int a,int b);
+int main() {
+    
+    printf("%d",sum(1429,2822));
+    return 0;
+}
+int sum(int a,int b)
+   {
+    int ld1,ld2;
+    ld1=abs(a%10);
+    id2=abs(b%10);
+    return ld1+ld2;
+}
