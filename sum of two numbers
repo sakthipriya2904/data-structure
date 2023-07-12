@@ -9,6 +9,6 @@ int sum(int a,int b)
    {
     int ld1,ld2;
     ld1=abs(a%10);
-    id2=abs(b%10);
+    ld2=abs(b%10);
     return ld1+ld2;
 }
