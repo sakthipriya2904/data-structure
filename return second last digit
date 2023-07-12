@@ -6,6 +6,9 @@ int main() {
     return 0;
 }
 int secondlast_digit(int num)
-   {
-    return (num % 100)/ 10;
+{
+    if(abs(num)<10)
+        return -1;
+     else 
+        return abs(num % 100)/ 10;
 }
